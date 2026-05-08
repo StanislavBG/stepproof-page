@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { track } from './kit.js';
+import { track } from '@bilkobibitkov/host-kit';
 
 function CopyBlock({ text, label }: { text: string; label?: string }) {
   const [copied, setCopied] = useState(false);
